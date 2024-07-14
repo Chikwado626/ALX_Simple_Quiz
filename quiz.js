@@ -8,5 +8,6 @@ function checkAnswer() {
     } else {
         document.getElementById("feedback").textContent = "That's incorrect. Try again!";
     }
-}
+};
+
 document.getElementById("submit-answer").addEventlistener("click", checkAnswer);
