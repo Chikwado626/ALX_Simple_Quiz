@@ -10,5 +10,4 @@ function checkAnswer() {
     }
 };
 
-let submitButton = document.getElementById("submit-answer");
-submitButton.addEventlistener("click", checkAnswer);
+document.getElementById("submit-answer").addEventlistener("click", checkAnswer);
