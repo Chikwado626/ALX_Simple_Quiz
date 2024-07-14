@@ -1,5 +1,5 @@
 function checkAnswer() {
-    let correctAnswer = "4"
+    let correctAnswer = "4";
 
     let userAnswer = document.querySelector("input[name=quiz]:checked").value;
 
@@ -9,5 +9,4 @@ function checkAnswer() {
         document.getElementById("feedback").textContent = "That's incorrect. Try again!";
     }
 };
-
 document.getElementById("submit-answer").addEventlistener("click", checkAnswer);
