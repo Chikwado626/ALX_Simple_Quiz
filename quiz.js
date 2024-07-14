@@ -9,4 +9,4 @@ function checkAnswer() {
         document.getElementById("feedback").textContent = "That's incorrect. Try again!";
     }
 };
-document.getElementById("submit-answer").addEventlistener("click", checkAnswer);
+document.getElementById("submit-answer").addEventListener("click", checkAnswer);
